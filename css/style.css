@@ -1,0 +1,16 @@
+[class*="col-"] {
+  padding: 70px 0;
+  background-color: #FDC0CA;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.container:nth-child(5) > .col-6 {
+  padding: 5px;
+}
+
+.container .container > [class*="col-"] {
+  background-color: #F08080;
+  border-color: #FFF;
+  max-height: 160px;
+}
