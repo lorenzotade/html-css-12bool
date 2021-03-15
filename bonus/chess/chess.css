@@ -1,0 +1,34 @@
+[class*="col-"] {
+  border: 1px solid #000;
+  height: 90px;
+  width: 90px;
+  line-height: 90px;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container.game:nth-child(odd) [class*="col-"]:nth-child(2n+3),
+.container.game:nth-child(even) [class*="col-"]:nth-child(2n+4) {
+  background-color: #FFCE9C;
+}
+
+.container.game:nth-child(even) [class*="col-"]:nth-child(2n+3),
+.container.game:nth-child(odd) [class*="col-"]:nth-child(2n+4) {
+  background-color: #D18B47;
+}
+
+.container [class*="col-"]:first-child,
+.container [class*="col-"]:last-child {
+  background-color: #D18B47 !important;
+}
+
+.container.game [class*="col-"]:nth-child(2),
+.container.game [class*="col-"]:nth-child(11) {
+  background-color: #FFF !important;
+}
+
+.shade {
+  background-color: #D18B47;
+}

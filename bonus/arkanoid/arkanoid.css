@@ -1,0 +1,33 @@
+body {
+  background-color: #00087B;
+}
+
+[class*="col-"] {
+  border: 1px solid #000;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.grey [class*="col-"] {
+  background-color: #7C7C7C;
+}
+
+.red [class*="col-"] {
+  background-color: #FF0000;
+}
+
+.yellow [class*="col-"] {
+  background-color: #FFFF00;
+}
+
+.blue [class*="col-"] {
+  background-color: #0000FF;
+}
+
+.pink [class*="col-"] {
+  background-color: #FFBDCC;
+}
+
+.green [class*="col-"] {
+  background-color: #008100;
+}
